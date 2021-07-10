@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Mat
    ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -2126,7 +2126,7 @@ The input is 2D point set, represented by CV_32SC2 or CV_32FC2 matrix.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T At&lt;T&gt;(int i0)
+    <pre><code class="lang-csharp hljs">public ref T At&lt;T&gt;(int i0)
     where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2192,7 +2192,7 @@ The input is 2D point set, represented by CV_32SC2 or CV_32FC2 matrix.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T At&lt;T&gt;(int i0, int i1)
+    <pre><code class="lang-csharp hljs">public ref T At&lt;T&gt;(int i0, int i1)
     where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2264,7 +2264,7 @@ The input is 2D point set, represented by CV_32SC2 or CV_32FC2 matrix.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T At&lt;T&gt;(int i0, int i1, int i2)
+    <pre><code class="lang-csharp hljs">public ref T At&lt;T&gt;(int i0, int i1, int i2)
     where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2342,7 +2342,7 @@ The input is 2D point set, represented by CV_32SC2 or CV_32FC2 matrix.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T At&lt;T&gt;(params int[] idx)
+    <pre><code class="lang-csharp hljs">public ref T At&lt;T&gt;(params int[] idx)
     where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10322,13 +10322,13 @@ or convolution using DFT</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_ImEncode_System_String_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.ImEncode(System.String%2CImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_ImEncode_System_String_OpenCvSharp_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.ImEncode(System.String%2COpenCvSharp.ImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Pandinosaurus/opencvsharp/blob/master/src/OpenCvSharp/Modules/core/Mat/Mat_CvMethods.cs/#L900">View Source</a>
   </span>
   <a id="OpenCvSharp_Mat_ImEncode_" data-uid="OpenCvSharp.Mat.ImEncode*"></a>
-  <h4 id="OpenCvSharp_Mat_ImEncode_System_String_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.ImEncode(System.String,ImageEncodingParam[])">ImEncode(String, ImageEncodingParam[])</h4>
+  <h4 id="OpenCvSharp_Mat_ImEncode_System_String_OpenCvSharp_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.ImEncode(System.String,OpenCvSharp.ImageEncodingParam[])">ImEncode(String, ImageEncodingParam[])</h4>
   <div class="markdown level1 summary"><p>Encodes an image into a memory buffer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -10353,7 +10353,7 @@ or convolution using DFT</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">ImageEncodingParam</span>[]</td>
+        <td><a class="xref" href="OpenCvSharp.ImageEncodingParam.html">ImageEncodingParam</a>[]</td>
         <td><span class="parametername">prms</span></td>
         <td><p>Format-specific parameters.</p>
 </td>
@@ -10432,13 +10432,13 @@ or convolution using DFT</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_ImWrite_System_String_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.ImWrite(System.String%2CImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_ImWrite_System_String_OpenCvSharp_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.ImWrite(System.String%2COpenCvSharp.ImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Pandinosaurus/opencvsharp/blob/master/src/OpenCvSharp/Modules/core/Mat/Mat_CvMethods.cs/#L928">View Source</a>
   </span>
   <a id="OpenCvSharp_Mat_ImWrite_" data-uid="OpenCvSharp.Mat.ImWrite*"></a>
-  <h4 id="OpenCvSharp_Mat_ImWrite_System_String_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.ImWrite(System.String,ImageEncodingParam[])">ImWrite(String, ImageEncodingParam[])</h4>
+  <h4 id="OpenCvSharp_Mat_ImWrite_System_String_OpenCvSharp_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.ImWrite(System.String,OpenCvSharp.ImageEncodingParam[])">ImWrite(String, ImageEncodingParam[])</h4>
   <div class="markdown level1 summary"><p>Saves an image to a specified file.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -10462,7 +10462,7 @@ or convolution using DFT</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">ImageEncodingParam</span>[]</td>
+        <td><a class="xref" href="OpenCvSharp.ImageEncodingParam.html">ImageEncodingParam</a>[]</td>
         <td><span class="parametername">prms</span></td>
         <td></td>
       </tr>
@@ -16179,13 +16179,13 @@ from src.size(), fx, and fy; the type of dst is the same as of src.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_SaveImage_System_String_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.SaveImage(System.String%2CImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_SaveImage_System_String_OpenCvSharp_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.SaveImage(System.String%2COpenCvSharp.ImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Pandinosaurus/opencvsharp/blob/master/src/OpenCvSharp/Modules/core/Mat/Mat_CvMethods.cs/#L950">View Source</a>
   </span>
   <a id="OpenCvSharp_Mat_SaveImage_" data-uid="OpenCvSharp.Mat.SaveImage*"></a>
-  <h4 id="OpenCvSharp_Mat_SaveImage_System_String_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.SaveImage(System.String,ImageEncodingParam[])">SaveImage(String, ImageEncodingParam[])</h4>
+  <h4 id="OpenCvSharp_Mat_SaveImage_System_String_OpenCvSharp_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.SaveImage(System.String,OpenCvSharp.ImageEncodingParam[])">SaveImage(String, ImageEncodingParam[])</h4>
   <div class="markdown level1 summary"><p>Saves an image to a specified file.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -16209,7 +16209,7 @@ from src.size(), fx, and fy; the type of dst is the same as of src.</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">ImageEncodingParam</span>[]</td>
+        <td><a class="xref" href="OpenCvSharp.ImageEncodingParam.html">ImageEncodingParam</a>[]</td>
         <td><span class="parametername">prms</span></td>
         <td></td>
       </tr>
@@ -17849,13 +17849,13 @@ The input matrix must be single-channel, 8-bit or 32-bit floating point.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_ToBytes_System_String_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.ToBytes(System.String%2CImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_ToBytes_System_String_OpenCvSharp_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.ToBytes(System.String%2COpenCvSharp.ImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Pandinosaurus/opencvsharp/blob/master/src/OpenCvSharp/Modules/core/Mat/Mat.cs/#L3605">View Source</a>
   </span>
   <a id="OpenCvSharp_Mat_ToBytes_" data-uid="OpenCvSharp.Mat.ToBytes*"></a>
-  <h4 id="OpenCvSharp_Mat_ToBytes_System_String_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.ToBytes(System.String,ImageEncodingParam[])">ToBytes(String, ImageEncodingParam[])</h4>
+  <h4 id="OpenCvSharp_Mat_ToBytes_System_String_OpenCvSharp_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.ToBytes(System.String,OpenCvSharp.ImageEncodingParam[])">ToBytes(String, ImageEncodingParam[])</h4>
   <div class="markdown level1 summary"><p>Encodes an image into a memory buffer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -17880,7 +17880,7 @@ The input matrix must be single-channel, 8-bit or 32-bit floating point.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">ImageEncodingParam</span>[]</td>
+        <td><a class="xref" href="OpenCvSharp.ImageEncodingParam.html">ImageEncodingParam</a>[]</td>
         <td><span class="parametername">prms</span></td>
         <td><p>Format-specific parameters.</p>
 </td>
@@ -17959,13 +17959,13 @@ The input matrix must be single-channel, 8-bit or 32-bit floating point.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_ToMemoryStream_System_String_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.ToMemoryStream(System.String%2CImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_ToMemoryStream_System_String_OpenCvSharp_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.ToMemoryStream(System.String%2COpenCvSharp.ImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Pandinosaurus/opencvsharp/blob/master/src/OpenCvSharp/Modules/core/Mat/Mat.cs/#L3616">View Source</a>
   </span>
   <a id="OpenCvSharp_Mat_ToMemoryStream_" data-uid="OpenCvSharp.Mat.ToMemoryStream*"></a>
-  <h4 id="OpenCvSharp_Mat_ToMemoryStream_System_String_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.ToMemoryStream(System.String,ImageEncodingParam[])">ToMemoryStream(String, ImageEncodingParam[])</h4>
+  <h4 id="OpenCvSharp_Mat_ToMemoryStream_System_String_OpenCvSharp_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.ToMemoryStream(System.String,OpenCvSharp.ImageEncodingParam[])">ToMemoryStream(String, ImageEncodingParam[])</h4>
   <div class="markdown level1 summary"><p>Converts Mat to System.IO.MemoryStream</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -17989,7 +17989,7 @@ The input matrix must be single-channel, 8-bit or 32-bit floating point.</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">ImageEncodingParam</span>[]</td>
+        <td><a class="xref" href="OpenCvSharp.ImageEncodingParam.html">ImageEncodingParam</a>[]</td>
         <td><span class="parametername">prms</span></td>
         <td></td>
       </tr>
@@ -18602,13 +18602,13 @@ It should have the same size as image.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_WriteToStream_System_IO_Stream_System_String_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.WriteToStream(System.IO.Stream%2CSystem.String%2CImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Pandinosaurus/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_Mat_WriteToStream_System_IO_Stream_System_String_OpenCvSharp_ImageEncodingParam___.md&amp;value=---%0Auid%3A%20OpenCvSharp.Mat.WriteToStream(System.IO.Stream%2CSystem.String%2COpenCvSharp.ImageEncodingParam%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/Pandinosaurus/opencvsharp/blob/master/src/OpenCvSharp/Modules/core/Mat/Mat.cs/#L3628">View Source</a>
   </span>
   <a id="OpenCvSharp_Mat_WriteToStream_" data-uid="OpenCvSharp.Mat.WriteToStream*"></a>
-  <h4 id="OpenCvSharp_Mat_WriteToStream_System_IO_Stream_System_String_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.WriteToStream(System.IO.Stream,System.String,ImageEncodingParam[])">WriteToStream(Stream, String, ImageEncodingParam[])</h4>
+  <h4 id="OpenCvSharp_Mat_WriteToStream_System_IO_Stream_System_String_OpenCvSharp_ImageEncodingParam___" data-uid="OpenCvSharp.Mat.WriteToStream(System.IO.Stream,System.String,OpenCvSharp.ImageEncodingParam[])">WriteToStream(Stream, String, ImageEncodingParam[])</h4>
   <div class="markdown level1 summary"><p>Writes image data encoded from this Mat to System.IO.Stream</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -18637,7 +18637,7 @@ It should have the same size as image.</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">ImageEncodingParam</span>[]</td>
+        <td><a class="xref" href="OpenCvSharp.ImageEncodingParam.html">ImageEncodingParam</a>[]</td>
         <td><span class="parametername">prms</span></td>
         <td></td>
       </tr>

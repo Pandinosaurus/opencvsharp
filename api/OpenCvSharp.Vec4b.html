@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct Vec4b
    ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -289,7 +289,7 @@ public struct Vec4b : IVec&lt;Vec4b, byte&gt;, IVec, IEquatable&lt;Vec4b&gt;</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte this[int i] { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public byte this[int i] { readonly get; set; }</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -339,7 +339,7 @@ public struct Vec4b : IVec&lt;Vec4b, byte&gt;, IVec, IEquatable&lt;Vec4b&gt;</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vec4b Add(Vec4b other)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Vec4b Add(Vec4b other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -387,7 +387,7 @@ public struct Vec4b : IVec&lt;Vec4b, byte&gt;, IVec, IEquatable&lt;Vec4b&gt;</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Deconstruct(out byte item0, out byte item1, out byte item2, out byte item3)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly void Deconstruct(out byte item0, out byte item1, out byte item2, out byte item3)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -435,7 +435,7 @@ public struct Vec4b : IVec&lt;Vec4b, byte&gt;, IVec, IEquatable&lt;Vec4b&gt;</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vec4b Divide(double alpha)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Vec4b Divide(double alpha)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -482,7 +482,7 @@ public struct Vec4b : IVec&lt;Vec4b, byte&gt;, IVec, IEquatable&lt;Vec4b&gt;</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(Vec4b other)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(Vec4b other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -529,7 +529,7 @@ public struct Vec4b : IVec&lt;Vec4b, byte&gt;, IVec, IEquatable&lt;Vec4b&gt;</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly bool Equals(object obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -578,7 +578,7 @@ public struct Vec4b : IVec&lt;Vec4b, byte&gt;, IVec, IEquatable&lt;Vec4b&gt;</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly int GetHashCode()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -611,7 +611,7 @@ public struct Vec4b : IVec&lt;Vec4b, byte&gt;, IVec, IEquatable&lt;Vec4b&gt;</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vec4b Multiply(double alpha)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Vec4b Multiply(double alpha)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -659,7 +659,7 @@ public struct Vec4b : IVec&lt;Vec4b, byte&gt;, IVec, IEquatable&lt;Vec4b&gt;</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vec4b Subtract(Vec4b other)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Vec4b Subtract(Vec4b other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -706,7 +706,7 @@ public struct Vec4b : IVec&lt;Vec4b, byte&gt;, IVec, IEquatable&lt;Vec4b&gt;</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly string ToString()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

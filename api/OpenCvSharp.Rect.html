@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct Rect
    ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -357,7 +357,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Bottom { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly int Bottom { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -388,7 +388,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Point BottomRight { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Point BottomRight { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -481,7 +481,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Right { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly int Right { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -574,7 +574,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Point TopLeft { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Point TopLeft { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -607,7 +607,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rect Add(Point pt)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Rect Add(Point pt)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -655,7 +655,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rect Add(Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Rect Add(Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -703,7 +703,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains(Point pt)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool Contains(Point pt)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -752,7 +752,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains(Rect rect)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool Contains(Rect rect)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -801,7 +801,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains(int x, int y)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool Contains(int x, int y)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -855,7 +855,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(Rect other)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(Rect other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -902,7 +902,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly bool Equals(object obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1018,7 +1018,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly int GetHashCode()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1186,7 +1186,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rect Intersect(Rect rect)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Rect Intersect(Rect rect)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1290,7 +1290,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IntersectsWith(Rect rect)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool IntersectsWith(Rect rect)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1339,7 +1339,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rect Subtract(Point pt)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Rect Subtract(Point pt)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1387,7 +1387,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rect Subtract(Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Rect Subtract(Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1434,7 +1434,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly string ToString()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1467,7 +1467,7 @@ public struct Rect : IEquatable&lt;Rect&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rect Union(Rect rect)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Rect Union(Rect rect)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

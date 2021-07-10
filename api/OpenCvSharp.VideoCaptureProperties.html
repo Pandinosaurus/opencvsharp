@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum VideoCaptureProperties
    ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -277,6 +277,18 @@ user can adjust refernce level using this feature</p>
       <tr>
         <td id="OpenCvSharp_VideoCaptureProperties_Hue">Hue</td>
         <td><p>hue of image (only for cameras)</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenCvSharp_VideoCaptureProperties_HwAcceleration">HwAcceleration</td>
+        <td><p>(open-only) Hardware acceleration type (see VideoAccelerationType).
+Setting supported only via params parameter in cv::VideoCapture constructor / .open() method.
+Default value is backend-specific.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenCvSharp_VideoCaptureProperties_HwDevice">HwDevice</td>
+        <td><p>(open-only) Hardware device index (select GPU if multiple available). Device enumeration is acceleration type specific.</p>
 </td>
       </tr>
       <tr>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum VideoWriterProperties
    ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -93,8 +93,30 @@
     <thead>
     <tbody>
       <tr>
+        <td id="OpenCvSharp_VideoWriterProperties_Depth">Depth</td>
+        <td><p>Defaults to CV_8U.</p>
+</td>
+      </tr>
+      <tr>
         <td id="OpenCvSharp_VideoWriterProperties_FrameBytes">FrameBytes</td>
         <td><p>(Read-only): Size of just encoded video frame. Note that the encoding order may be different from representation order.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenCvSharp_VideoWriterProperties_HwAcceleration">HwAcceleration</td>
+        <td><p>(open-only) Hardware acceleration type (see VideoAccelerationType).
+Setting supported only via params parameter in cv::VideoCapture constructor / .open() method.
+Default value is backend-specific.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenCvSharp_VideoWriterProperties_HwDevice">HwDevice</td>
+        <td><p>(open-only) Hardware device index (select GPU if multiple available). Device enumeration is acceleration type specific.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenCvSharp_VideoWriterProperties_IsColor">IsColor</td>
+        <td><p>If it is not zero, the encoder will expect and encode color frames, otherwise it will work with grayscale frames.</p>
 </td>
       </tr>
       <tr>

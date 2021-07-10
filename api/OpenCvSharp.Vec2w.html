@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct Vec2w
    ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -219,7 +219,7 @@ public struct Vec2w : IVec&lt;Vec2w, ushort&gt;, IVec, IEquatable&lt;Vec2w&gt;</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ushort this[int i] { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ushort this[int i] { readonly get; set; }</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -269,7 +269,7 @@ public struct Vec2w : IVec&lt;Vec2w, ushort&gt;, IVec, IEquatable&lt;Vec2w&gt;</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vec2w Add(Vec2w other)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Vec2w Add(Vec2w other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -317,7 +317,7 @@ public struct Vec2w : IVec&lt;Vec2w, ushort&gt;, IVec, IEquatable&lt;Vec2w&gt;</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Deconstruct(out ushort item0, out ushort item1)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly void Deconstruct(out ushort item0, out ushort item1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -355,7 +355,7 @@ public struct Vec2w : IVec&lt;Vec2w, ushort&gt;, IVec, IEquatable&lt;Vec2w&gt;</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vec2w Divide(double alpha)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Vec2w Divide(double alpha)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -402,7 +402,7 @@ public struct Vec2w : IVec&lt;Vec2w, ushort&gt;, IVec, IEquatable&lt;Vec2w&gt;</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(Vec2w other)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(Vec2w other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -449,7 +449,7 @@ public struct Vec2w : IVec&lt;Vec2w, ushort&gt;, IVec, IEquatable&lt;Vec2w&gt;</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly bool Equals(object obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -498,7 +498,7 @@ public struct Vec2w : IVec&lt;Vec2w, ushort&gt;, IVec, IEquatable&lt;Vec2w&gt;</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly int GetHashCode()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -531,7 +531,7 @@ public struct Vec2w : IVec&lt;Vec2w, ushort&gt;, IVec, IEquatable&lt;Vec2w&gt;</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vec2w Multiply(double alpha)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Vec2w Multiply(double alpha)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -579,7 +579,7 @@ public struct Vec2w : IVec&lt;Vec2w, ushort&gt;, IVec, IEquatable&lt;Vec2w&gt;</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vec2w Subtract(Vec2w other)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Vec2w Subtract(Vec2w other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -626,7 +626,7 @@ public struct Vec2w : IVec&lt;Vec2w, ushort&gt;, IVec, IEquatable&lt;Vec2w&gt;</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly string ToString()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
